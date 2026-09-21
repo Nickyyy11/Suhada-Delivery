@@ -33,6 +33,13 @@ a {
 /* =========================
    NAVBAR
 ========================= */
+.navbar {
+    transition: box-shadow 0.3s ease;
+}
+
+.navbar-scrolled {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
 
 .navbar {
     position: sticky;
@@ -508,7 +515,7 @@ a {
 ========================= */
 
 footer {
-    padding: 50px 0;
+    padding: 30px 0;
 
     background: #111827;
 
@@ -522,7 +529,7 @@ footer {
 
     justify-content: space-between;
 
-    gap: 40px;
+    gap: 40 px;
 }
 
 footer h3 {
