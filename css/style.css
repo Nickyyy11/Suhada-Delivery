@@ -60,8 +60,13 @@ a {
 .logo {
     font-size: 22px;
     font-weight: 800;
+    display: flex;
+    align-items: center;
 }
-
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+}
 .logo span {
     color: #16a34a;
 }
